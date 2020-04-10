@@ -1,0 +1,120 @@
+.input-search
+  width: 300px
+  background-image: url('../img/main/search.svg')
+  margin-left: auto
+
+.main
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%)
+  
+.section
+  &__heading
+    display: flex
+    // justify-content: space-between
+    align-items: center
+    margin-bottom: 44px
+  &__title
+    margin: 0
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 42px
+    color: #000000
+    margin-right: 30px
+    
+
+.cards
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-wrap: wrap
+
+.card
+  background: #FFFFFF
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+  border-radius: 7px
+  overflow: hidden
+  margin-bottom: 30px
+  flex-basis: 31%
+  padding-bottom: 35px
+  cursor: pointer
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 32px
+    &--reg
+      font-weight: 400
+  &__tag
+    background: #262626
+    border-radius: 2px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 20px
+    color: #FFFFFF
+    padding: 1px 8px
+  &__image
+    width: 384px
+    height: 250px
+    object-fit: cover
+    &--last
+      width: 364px
+  &__text
+    padding-top: 20px
+    padding-bottom: 35px
+    padding: 0 25px
+    &--text
+      padding: 0 18px
+  &__heading
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__info
+    display: flex
+    align-items: center
+  &__rating
+    margin-right: 46px
+    color: #FFC107
+    font-weight: bold
+    font-size: 18px
+    line-height: 32px
+  &__price,
+  &__category
+    color: #8C8C8C
+    font-size: 18px
+    line-height: 32px
+  &__price
+    margin-right: 10px
+    &::after
+      content: ''
+      background: #8C8C8C
+      width: 5px
+      height: 5px
+      display: inline-block
+      vertical-align: middle
+      border-radius: 50%
+      margin-left: 10px
+
+    //вторая страница
+  &__ingredients
+    font-size: 18px
+    line-height: 21px
+    color: #8C8C8C
+    margin-bottom: 25px
+
+  &__buttons
+    display: flex
+    // justify-content: space-between
+    align-items: center
+    &--text
+      margin-right: 5px  
+
+  &__price
+    &--bold
+      font-size: 20px
+      line-height: 32px
+      margin-left: 32px
+.rating
+  &__star
+    margin-right: 7.5px

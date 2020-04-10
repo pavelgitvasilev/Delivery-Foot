@@ -1,0 +1,157 @@
+@media screen and ( max-width: 1366px )
+  .container
+    max-width: 960px
+  
+  .promoblock
+    background-size: 600px
+    background-position: center right -200px
+  
+  .card
+    &__rating
+      margin-right: 15px
+
+    &__category,
+    &__price
+      font-size: 16px
+    
+
+@media screen and ( max-width: 992px )
+  .container
+    max-width: 750px
+  
+  .promoblock
+    padding: 50px
+    background-size: 450px
+    background-position: center right -150px
+    &__title,
+    &__text
+      max-width: 65%
+
+  .card
+    flex-basis: 49%
+    &__rating
+      margin-right: 15px
+
+    &__category,
+    &__price
+      font-size: 18px
+  
+  .menu
+    &__link
+      font-size: 16px
+    &__link:not(:last-child)
+      margin-right: 3px
+
+@media screen and ( max-width: 768px )
+  .container
+    max-width: 560px
+
+  .promoblock
+    padding: 50px
+    background-size: 300px
+    background-position: center right -110px
+    &__title
+      // max-width: 65%
+      font-size: 24px
+      line-height: 1.1
+    &__text
+      max-width: 65%
+      font-size: 18px
+      line-height: 1.4
+
+  .card
+    flex-basis: 49%
+    &__title
+      font-size: 18px
+    &__rating
+      margin-right: 15px
+    &__category,
+    &__price
+      font-size: 16px
+  .menu
+    &__links
+      display: flex
+      flex-wrap: wrap
+      flex-basis: 49%
+      align-items: center
+      justify-content: space-between
+
+@media screen and ( max-width: 578px )
+  .container
+    width: 90%
+  .header
+    flex-wrap: wrap
+    margin: auto
+    margin-bottom: 30px
+  .input
+    &-adress
+      order: 5
+      flex: 1
+      margin: auto
+      margin-top: 20px
+  .promoblock
+    padding: 25px
+    background-image: none
+    &__title
+      font-size: 28px
+      line-height: 1.1
+    &__text
+      font-size: 18px
+      line-height: 1.4
+  .section
+    &__title
+      font-size: 22px
+
+  .card
+    flex-basis: 100%
+    &__image
+      width: 100%
+    &__title
+      font-size: 26px
+    &__rating
+      margin-right: 15px
+    &__category,
+    &__price
+      font-size: 20px
+
+  .social
+    width: 40% 
+
+@media screen and ( max-width: 480px )
+  .button
+    min-height: 40px
+    &__icon
+      margin-right: 0
+    &__text
+      display: none
+  .section
+    &__heading
+      flex-wrap: wrap
+  .promoblock
+    padding: 20px
+    background-image: none
+  .footer-block
+    flex-wrap: wrap
+    flex-direction: column
+    &__image
+      order: 0
+      margin-bottom: 20px
+
+  .menu
+    &__links
+      margin-bottom: 20px
+      text-align: center
+    &__link:not(:last-child)
+      margin-right: 0
+
+  .card
+    flex-basis: 100%
+    &__image
+      width: 100%
+    &__title
+      font-size: 22px
+    &__rating
+      margin-right: 10px
+    &__category,
+    &__price
+      font-size: 15px
